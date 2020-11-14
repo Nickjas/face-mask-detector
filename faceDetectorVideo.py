@@ -9,8 +9,8 @@ import cv2
 
 
 #defining prototext and caffemodel paths
-caffeModel = "/Enter_YOUR_ABSOLUTE_PATH/res10_300x300_ssd_iter_140000.caffemodel"
-prototextPath = "Enter_YOUR ABSOLUTE_PATH/deploy.prototxt.txt"
+caffeModel = "res10_300x300_ssd_iter_140000.caffemodel"
+prototextPath = "deploy.prototxt.txt"
 
 #Load Model
 print("Loading model...................")
